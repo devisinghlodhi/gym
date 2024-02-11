@@ -2,7 +2,8 @@
 {
     "builds": [{
         "src": "gym/wsgi.py",        
-        "use": "@natanffs/vercel-python-wsgi",
+        "use": "@ardnt/vercel-python-wsgi",
+        "runtime": "python3.9",
         "config": { "maxLambdaSize": "15mb" }
     }],
     "routes": [
